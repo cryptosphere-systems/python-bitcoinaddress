@@ -1,1 +1,3 @@
-from validation import validate
+# -*- coding: utf-8 -*-
+from __future__ import absolute_import, print_function
+from .validation import validate
