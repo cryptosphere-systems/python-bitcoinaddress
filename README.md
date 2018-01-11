@@ -23,6 +23,12 @@ If you use this module, support me with bitcoins! Any amount is appreciated.
 History
 -------
 
+### 2018-01-15 (binaryFate)
+
+* Add support for validating BECH32 addresses (often called "Segwit addresses")
+* Switch to using a boolean to specify testnet instead of asking user
+  to know magicbytes
+
 ### 2014-08-13
 
 * Changed testnet support in a way that all altcoin addresses can be validated
