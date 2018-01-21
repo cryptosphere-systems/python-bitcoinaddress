@@ -87,7 +87,7 @@ def validate(bitcoin_address, testnet=False):
     False
     """
     if testnet:
-        magicbyte=(111,)
+        magicbyte=(111,196)
         bech32_hrp = "tb"
     else:
         magicbyte=(0, 5)

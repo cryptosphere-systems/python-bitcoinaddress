@@ -128,6 +128,8 @@ class TestValidBECH32(TestCase):
             ["bc1pw508d6qejxtdg4y5r3zarvary0c5xw7kw508d6qejxtdg4y5r3zarvary0c5xw7k7grplx", 0],
             ["BC1SW50QA3JX3S", 0],
             ["tb1qqqqqp399et2xygdj5xreqhjjvcmzhxw4aywxecjdzew6hylgvsesrxh6hy", 1],
+            ["2N5jPfTsRgz95uZ9BMoModTiY7mXM7EfQCn", 1],
+            ["2N9fzq66uZYQXp7uqrPBH6jKBhjrgTzpGCy", 1],
         ]
 
         INVALID_ADDRESS = [
@@ -141,6 +143,7 @@ class TestValidBECH32(TestCase):
             ["bc1zw508d6qejxtdg4y5r3zarvaryvqyzf3du", 0],
             ["tb1qrp33g0q5c5txsp9arysrx4k6zdkfs4nce4xj0gdcccefvpysxf3pjxtptv", 1],
             ["bc1gmk9yu", 0],
+            ["2N5jPfTsRgz95uZ9BMoModTiY7mXM7EafCn", 1],
         ]
 
         for add, testnet in VALID_ADDRESS:
